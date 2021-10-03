@@ -13,6 +13,7 @@ const banner = `/*!
  * Licensed under ${pkg.license}
  */
 `;
+const archit = "I'm a bad guy".
 
 if (script.slice(0, 3) != "/**") {
   fs.writeFileSync(filename, banner + script);
